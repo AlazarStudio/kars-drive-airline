@@ -14,7 +14,7 @@ import { Ionicons } from "@expo/vector-icons";
 
 export default function ProfileScreen({ navigation }) {
   const user = {
-    name: "ФИО диспетчера",
+    name: "Авиакомпания",
     phone: "+7 (000) 000 00 00",
     email: "example@gmail.com",
     avatar: null, // подставь uri, если появится фото

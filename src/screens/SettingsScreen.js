@@ -16,7 +16,7 @@ import { Ionicons } from "@expo/vector-icons";
 
 export default function SettingsScreen({ navigation }) {
     // мок-данные пользователя
-    const [name, setName] = useState("ФИО диспетчера");
+    const [name, setName] = useState("Авиакомпания");
     const [phone, setPhone] = useState("+7 (000) 000 00 00");
     const [email, setEmail] = useState("example@gmail.com");
 
