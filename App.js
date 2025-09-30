@@ -17,6 +17,9 @@ import SettingsScreen from "./src/screens/SettingsScreen";
 import OrderDetailsScreen from "./src/screens/OrderDetailsScreen";
 import DriverPickerScreen from "./src/screens/DriverPickerScreen";
 import ChatScreen from "./src/screens/ChatScreen";
+import AirlineHomeScreen from "./src/screens/AirlineHomeScreen";
+import RoutePreviewScreen from "./src/screens/RoutePreviewScreen";
+import HistoryDetailsScreen from "./src/screens/HistoryDetailsScreen";
 
 // ---------- Логин ----------
 function LoginScreen({ navigation }) {
@@ -126,7 +129,10 @@ export default function App() {
           <Stack.Screen name="Settings" component={SettingsScreen} />
           <Stack.Screen name="OrderDetails" component={OrderDetailsScreen} />
           <Stack.Screen name="DriverPicker" component={DriverPickerScreen} />
+          <Stack.Screen name="AirlineHomeScreen " component={AirlineHomeScreen} />
           <Stack.Screen name="Chat" component={ChatScreen} />
+          <Stack.Screen name="RoutePreview" component={RoutePreviewScreen} />
+          <Stack.Screen name="HistoryDetails" component={HistoryDetailsScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>

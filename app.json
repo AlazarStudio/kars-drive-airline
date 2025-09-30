@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "kars-drive-dispatcher",
-    "slug": "kars-drive-dispatcher",
+    "name": "kars-drive-airline",
+    "slug": "kars-drive-airline",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,6 +16,7 @@
       "supportsTablet": true
     },
     "android": {
+      "softwareKeyboardLayoutMode": "pan",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
